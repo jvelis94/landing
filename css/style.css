@@ -1,0 +1,118 @@
+/* Fonts */
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700|Poppins:700');
+
+/* Fontawesome */
+@import url('https://use.fontawesome.com/releases/v5.6.3/css/all.css');
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css");
+/* Utilities */
+body {
+  margin: 0;
+  font-family: Open Sans;
+  height: 100%;
+}
+
+h1, h2, h3, h4 {
+  font-family: Poppins;
+}
+
+a {
+  text-decoration: none;
+}
+
+/* Custom design below! */
+.banner {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 100%;
+  color: white;
+  margin-bottom: 30px;
+  height: 500px;
+}
+
+.banner-details a {
+  padding: 15px 25px;
+  border: 1px solid #A0A0A0;
+  opacity: 0.95 ;
+  border-radius: 25px;
+  color: #ffffff;
+  font-size: 18px;
+  font-weight: 600;
+  background-color: #1DDD88;
+
+}
+
+.banner-details a:hover {
+  opacity: 1;
+}
+
+.content {
+  text-align: center;
+  margin-top: 70px;
+}
+
+.cards {
+  display: flex;
+  padding:40px;
+  align-items: center;
+  justify-content: center;
+}
+
+.card {
+  box-shadow: 10px 10px 43px 8px rgba(0,0,0,0.08);
+  width: 20%;
+  margin: 0 25px;
+  padding: 50px 5px;;
+}
+
+.card img {
+  width: 70%;
+  height: 100px;
+}
+
+footer {
+  margin-top: 30px;
+}
+
+.profile-boxes {
+  margin: 20px auto;
+  padding: 0px 25px;
+  text-align: center;
+  border-radius: 10px;
+}
+
+.social-media-icons {
+  margin: 0 auto;
+  text-align: center;
+}
+
+.fa {
+  padding: 10px;
+  font-size: 40px;
+  width: 30px;
+  text-align: center;
+  text-decoration: none;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-facebook {
+  color: #1DDD88;
+}
+
+.fa-twitter {
+  color: #1DDD88;
+}
+
+.fa-linkedin {
+  color: #1DDD88;
+}
+
+.fa-instagram {
+  color: #1DDD88;
+}
