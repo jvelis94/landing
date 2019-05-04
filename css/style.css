@@ -120,6 +120,10 @@ footer {
   .card {
     width: 300%;
   }
+
+  .banner-details {
+    margin-left: 15px;
+  }
 }
 
 @media (max-width: 700px) {
